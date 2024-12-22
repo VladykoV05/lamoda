@@ -1,0 +1,32 @@
+.appContainer {
+  display: flex;
+  gap: 20px; 
+  padding: 20px;
+}
+
+.filtersContainer {
+  width: 250px;
+  height: 400px; 
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.productListContainer {
+  flex: 3;
+}
+
+.filtersContainer h4 {
+  color: #333;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+}
+
+.filtersContainer > div {
+  margin-bottom: 16px;
+}

@@ -1,0 +1,45 @@
+.productItem {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.productImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.productName {
+  font-size: 1.2em;
+  margin: 8px 0;
+}
+
+.productCategory {
+  color: #777;
+  font-size: 0.9em;
+}
+
+.productPrice {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.productRating {
+  font-size: 0.9em;
+  color: #f39c12;
+}
+.productColor {
+  font-size: 0.9em;
+  color: #555;
+  margin: 4px 0;
+}
+
+.productDescription {
+  font-size: 0.9em;
+  color: #666;
+  margin: 4px 0;
+  line-height: 1.4;
+}
+

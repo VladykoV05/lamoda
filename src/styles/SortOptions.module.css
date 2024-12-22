@@ -1,0 +1,26 @@
+.sortOptions {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  justify-content: center;
+}
+
+.sortButton {
+  padding: 8px 16px;
+  font-size: 1em;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sortButton:hover {
+  background-color: #e0e0e0;
+}
+
+.active {
+  background-color: #3498db;
+  color: white;
+  border-color: #3498db;
+}
